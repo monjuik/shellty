@@ -196,6 +196,44 @@
             </div>
         </section>
 
+        <section id="performance" class="py-5">
+          <div class="container">
+            <h2>⚡ Speed Proven in the Lab — and Ready for Production</h2>
+            <p><strong>Shellty runs fast under banking-grade workloads.</strong></p>
+            <p>
+              In our lab, the reference setup (<em>100 K synthetic clients, 2-core / 4 GB VM</em>) 
+              consistently delivered <em>sub-millisecond response times</em> for read scenarios and 
+              <em>low-millisecond latency</em> for event writes.
+            </p>
+        
+            <h3>Laboratory benchmark</h3>
+            <ul>
+              <li><strong>Read statements:</strong> 0.8 ms mean / 1.2 ms p90
+              </li>
+              <li><strong>Create events:</strong> 1.1 ms mean / 1.6 ms p90
+              </li>
+            </ul>
+        
+            <h3>Real-world test scenario</h3>
+            <ul>
+              <li><strong>Read statements (500 RPS):</strong> ≈ 1.4 ms mean / 2.1 ms p90</li>
+              <li><strong>Event processing (50 RPS with synchronous WAL writes in addition to read statements):</strong> ≈ 2.7 ms mean / 4.1 ms p90</li>
+            </ul>
+        
+            <p>
+              All tests were executed on a compact <em>2-core / 4 GB virtual machine</em> that still had spare CPU and memory capacity.
+              In typical deployments with database-backed storage (using PostgreSQL), response times remain comfortably within the low-millisecond range.
+            </p>
+        
+            <p><strong>Result:</strong><br>
+              Customer lookups stay instant, event streams stay reliable — even under continuous load.
+              Engineered to stay very fast on minimal hardware.
+            </p>
+          </div>
+        </section>
+        
+        
+
         <!-- Footer -->
         <footer class="py-4 text-center text-muted small">
             <div class="container">
